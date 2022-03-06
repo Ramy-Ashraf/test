@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sign Up
+        </title>
+        <!--
+            TODO: add reference external style.css file
+        -->
+        <link rel="stylesheet" href="../static/css/style.css">
+        <script src="../static/js/utils.js"></script>
+    </head>
+    <!--
+        TODO: import alert_welcome function from external utils.js file
+        TODO: call alert_welcome
+    -->
+    <!--
+        TODO: create form html components to capture user input
+        TODO: make sure to set required inputs
+        TODO: add styling from style.css to submit button
+    -->
+        <body onload="alert_welcome()">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+    </div>
+
+    <div>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" size="30">
+    </div>
+
+    <div>
+        <label for="password">Password (8 characters minimum):</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+    </div>
+
+        <button type="submit">SignUp</button>
+</body>
+</html>

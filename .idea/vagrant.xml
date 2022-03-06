@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VagrantProjectSettings">
+    <option name="envs">
+      <map>
+        <entry key="FLASK_APP" value="app.py" />
+        <entry key="FLASK_DEBUG" value="true" />
+        <entry key="PYHTONUNBUFFERED" value="1," />
+      </map>
+    </option>
+    <option name="instanceFolder" value="" />
+    <option name="provider" value="" />
+  </component>
+</project>
