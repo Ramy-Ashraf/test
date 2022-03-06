@@ -29,3 +29,4 @@ def user_exists(email, username, password):
     if email == "ramy.ashraf2015@gmail.com" and username == "Ramy" and password == "test":
 
         return True
+# Hamada1
